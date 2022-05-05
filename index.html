@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM</title>
+    <link rel="icon" href="img/logo.jpg">
+    <!---fonts awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!---vendors-->
+    <link rel="stylesheet" href="vendors/grid.css">
+    <link rel="stylesheet" href="vendors/main.css">
+    <link rel="stylesheet" href="vendors/normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+<!---------------start navbar ------------->
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+<!---------------start header ------------->
+
+<header>
+	<nav>
+		<div class="row">
+			<a href="#home">
+				<img src="img/logo.jpg" alt="Logo" class="logo">
+			</a>
+			<ul class="main-nav">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</ul>
+			<div class="mobile-menu">
+				<span onclick="openNav()">&#9776;</span>
+				<div id="myNav" class="overlay">
+					<a href="javascript:void(0)" onclick="closeNav()" class="close-btn">&times;</a>
+					<div class="overlay-content">
+						<a onclick="closeNav()" href="#home">Home</a>
+						<a onclick="closeNav()" href="#about">About</a>
+						<a onclick="closeNav()" href="#services">Services</a>
+						<a onclick="closeNav()" href="#contact">Contact Us</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+    
+</header>
+<!---------------close header ------------->
+<section id="home">
+    <video autoplay muted loop class="bg-video">
+        <source src="img/hero-video.mp4" type="video/mp4" >
+    </video>
+    <div class="video-overlay header-text">
+        <div class="hero-text">
+            <h6>Healthy Mind, Healthy Body</h6>
+            <h3>Come to our <em>gym</em></h3>
+            <button type="button" class="btn">Enroll today</button>
+        </div>
+    </div>
+</section>
+
+<!---------------start About ------------->
+<section class="about" id="about">
+    <div class="row">
+        <h2 class="title">About Us</h2>
+        <div class="about-content">
+            
+            <div class="column col span_1_of_2">
+                <div class="text">Hello, My name is Punya your Gym Trainer</div>
+                <p class="little-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="column col span_1_of_2">
+                <img src="img/about-img.jpg" alt="Gym Trainer images">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------------close About ------------->
+<br>
+<!---------------start services ------------->
+<section class="services" id="services">
+    <div class="row">
+        <h2 class="title">Our Services</h2>
+        <h3>What We Provide</h3>
+    </div>
+    <div class="row">
+        <div class="col span_1_of_3 box">
+            <i class="fas fa-suitcase"></i>
+            <h3>Cardio</h3>
+            <p class="little-description">Lorem ipsum carrots enhanced rebates. But the pain was, as if to welcome the pleasures they have these symptoms </p>
+        </div>
+        <div class="col span_1_of_3 box">
+            <i class="fas fa-dumbbell"></i>
+            <h3>Gym</h3>
+            <p class="little-description">Lorem ipsum carrots enhanced rebates. But the pain was, as if to welcome the pleasures they have these symptoms </p>
+        </div>
+        <div class="col span_1_of_3 box">
+            <i class="fas fa-suitcase"></i>
+            <h3>Cardio</h3>
+            <p class="little-description">Lorem ipsum carrots enhanced rebates. But the pain was, as if to welcome the pleasures they have these symptoms </p>
+        </div>
+    </div>
+</section>
+<!---------------close services ------------->
+
+<!---------------start articles ------------->
+
+ <section id="Blog" class="blog">
+    <div class="row">
+        <h2 class="title">LATEST TIPS AND NEWS</h2>
+        <h3>SOME TIPS FOR YOUR BODY</h3>
+    </div>
+    <div class="row">
+        <div class="col span_1_of_4 box">
+            <img src="img/blog-img1.jpg" alt="Pet Images">
+            <h3>Dumble</h3>
+            <p class="little-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil velit quidem nemo, sit repellendus voluptates.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="col span_1_of_4 box">
+            <img src="img/blog-img2.jpg" alt="Pet Images">
+            <h3>Back Push</h3>
+            <p class="little-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil velit quidem nemo, sit repellendus voluptates.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="col span_1_of_4 box">
+            <img src="img/blog-img3.jpg" alt="Pet Images">
+            <h3>Meditation</h3>
+            <p class="little-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil velit quidem nemo, sit repellendus voluptates.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="col span_1_of_4 box">
+            <img src="img/blog-img4.jpg" alt="Pet Images">
+            <h3>Workout</h3>
+            <p class="little-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil velit quidem nemo, sit repellendus voluptates.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+</section>
+<!---------------close articles ------------->
+<footer>
+    <span>Created By <a href="https://www.youtube.com/channel/UChaixW3w75BWJxNxDZdLJsQ" target="_blank">Designed by Punya</a> | <span class="far fa-copyright"></span> 2022 All rights reserved.</span>
+</footer>
+    <!--------------fonts awesome link--------->
+
+    <script src="https://kit.fontawesome.com/a6f4b9b662.js" crossorigin="anonymous"></script>
+
+
+	<!--------------jquery cdn------------------->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--------------html5shiv ------------------->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA==" crossorigin="anonymous"></script>
+	<!--------------respond ------------------->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha512-qWVvreMuH9i0DrugcOtifxdtZVBBL0X75r9YweXsdCHtXUidlctw7NXg5KVP3ITPtqZ2S575A0wFkvgS2anqSA==" crossorigin="anonymous"></script>
+
+ 	<!--------------selectivizr ------------------->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js" integrity="sha512-0mXreXYrXoy9laHoypsAOjuSCqh57vY+kIdE46k8Hw0yRY1EhJyHWUEAqfHOTrPkBpsbO39/ZPw5HITv8mLVOA==" crossorigin="anonymous"></script>
+
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>
